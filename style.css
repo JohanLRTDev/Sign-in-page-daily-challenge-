@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 717px;
+  background-color: hsla(238, 48%, 28%, 0.43);
+  overflow: auto;
+}
+.container {
+  display: flex;
+  max-height: 1048px;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
+  background-color: rgb(251, 251, 251);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 32px;
+  overflow: auto;
+}
+.form-container {
+  display: flex;
+  gap: 170px;
+  flex: 1;
+  padding: 10px 10px 100px 10px;
+  flex-direction: column;
+}
+header {
+  margin: 5px 20px;
+  display: flex;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+h1 {
+  margin: 0px 30px 10px 0px;
+  font-weight: bold;
+}
+p {
+  color: #999;
+}
+main {
+  margin: 10px;
+  padding: 10px 30px 90px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form {
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#form input {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#form input:focus {
+  border-color: #007bff;
+}
+
+#signInBtn {
+  height: 40px;
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.separatedLog {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.separatedLog span {
+  margin: 10px;
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+#signInBtn:hover {
+  background-color: #0069d9;
+}
+#signInBtnWithGoogle {
+  height: 40px;
+  width: 300px;
+  padding: 10px 0px;
+  margin: 0px 10px 50px 0px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#signInBtnWithGoogle:hover {
+  background-color: #f4f4f4;
+  border-color: #aaa;
+}
+
+#logo {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}
+#logo-google {
+  width: 20px;
+  height: 20px;
+}
+.image-container {
+  flex: 1.2;
+  background-image: url(./ressource/right-column.png);
+  background-size: cover;
+  border-radius: 10px;
+  padding: 60px;
+  margin: 20px;
+
+}
+

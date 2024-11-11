@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <header>
+          <img id="logo" src="./ressource/icon.svg" alt="logo" />
+          <h2>Revolutie</h2>
+        </header>
+        <main>
+          <div class="text-container">
+            <h1>Sign in</h1>
+            <p>Please login to continue to your account.</p>
+          </div>
+          <form id="form" action="">
+            <!-- <label for="Email">Email</label> -->
+            <input type="text" name="Email" id="Email" placeholder="Mail" />
+            <!-- <label for="Password">Password</label> -->
+            <input
+              type="text"
+              name="Password"
+              id="Password"
+              placeholder="Password"
+            />
+            <input type="checkbox" id="radioBtn" name="radioBtn" />
+            <label for="radioBtn">Keep me logged in </label>
+            <button id="signInBtn" type="submit">Sign in</button>
+          </form>
+          <div class="separatedLog">
+            <span></span>
+            <p>or</p>
+            <span></span>
+          </div>
+          <button id="signInBtnWithGoogle" type="text">
+            Sign in With Google
+            <img
+              id="logo-google"
+              src="./ressource/plus.svg"
+              alt="logo google"
+            />
+          </button>
+          <p>
+            Need an account ? <a href="https://www.google.com/">Create one </a>
+          </p>
+        </main>
+      </div>
+      <div class="image-container">
+        <!-- <img src="./ressource/right-column.png" alt="image" /> -->
+      </div>
+    </div>
+  </body>
+</html>
